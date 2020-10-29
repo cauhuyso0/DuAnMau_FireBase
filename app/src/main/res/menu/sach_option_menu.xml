@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/themLoaiSach"
+        android:title="Thêm loại sách"/>
+    <item
+        android:id="@+id/timLoaiSach"
+        android:title="Tìm loại sách"/>
+    <item
+        android:id="@+id/themSach"
+        android:title="Thêm sách"/>
+
+    <item
+        android:id="@+id/timSach"
+        android:title="Tìm sách"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+</menu>

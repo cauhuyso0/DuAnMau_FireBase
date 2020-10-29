@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spnMaLS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edtMaSach"
+        android:textSize="23dp"
+        android:hint="Nhập Mã Sách"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtTenSach"
+        android:textSize="23dp"
+        android:hint="Nhập Tên Sách"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtTacGia"
+        android:textSize="23dp"
+        android:hint="Nhập Bảo Vệ ASM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtNXB"
+        android:textSize="23dp"
+        android:hint="Nhập Nhà Xuất Bản"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtGiaBan"
+        android:textSize="23dp"
+        android:hint="Nhập Giá Bán"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtSoLuong"
+        android:textSize="23dp"
+        android:hint="Nhập Số Lượng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

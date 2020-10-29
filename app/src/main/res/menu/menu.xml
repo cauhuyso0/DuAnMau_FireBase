@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Người dùng"
+        android:id="@+id/nguoiDung"
+        android:icon="@drawable/ic_person"
+        />
+    <item
+        android:id="@+id/quanLySach"
+        android:title="Quản lý sách"
+        android:icon="@drawable/ic_library_books"
+        />
+    <item
+        android:id="@+id/hoaDon"
+        android:title="Hóa đơn"
+        android:icon="@drawable/ic_bill"
+        />
+
+    <item
+        android:id="@+id/thongKe"
+        android:title="Thống kê"
+        android:icon="@drawable/ic_insert_chart_black"
+        />
+    <item android:title="">
+        <menu>
+            <item android:title="Giới Thiệu"
+                android:icon="@drawable/ic_lightbulb_outline_black"
+                />
+            <item android:title="Thoát"
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit_to_app_black"
+                />
+        </menu>
+    </item>
+</menu>
